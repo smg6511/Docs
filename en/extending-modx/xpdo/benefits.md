@@ -9,9 +9,7 @@ There are a number of reasons for using xPDO. Lets summarize the high-level feat
 
 - Object-relational bridge (ORB) for mapping persistent objects to platform-optimized relational database structures
 
-- Utilizes PDO, the database access layer adopted as the standard for PHP 5.1+, which provides lightning fast interaction with various relational database platforms.
-
-- Provides a PDO implementation for PHP 4.3.x, 4.4.x and 5.0.x. Though some 5.0.x installations may have native PDO extensions added via PECL, not all will, and the support for PHP 4, though it requires some restraint in exercising the full potential of PDO, is one of the major goals of the entire xPDO project.
+- Utilizes PDO (PHP Data Objects), a database access layer that provides lightning fast interaction with various relational database platforms.
 
 - The code is ultra-light weight, and loads only what it needs on demand, so it adds virtually no overhead to your scripts. This was done by using generic methods and accessors and keeping all core code native PHP (i.e. no XML configuration parsing or other serialization involved).
 

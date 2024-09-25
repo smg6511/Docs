@@ -10,10 +10,10 @@ First off, make sure:
 
 - You have eAccelerator disabled during install. eAccelerator can cause problems when doing the heavy lifting during the install process.
 - You followed all the directions [here](getting-started/installation "Installation") for your distribution.
-- You are using at least PHP 5.1.1+, but not 5.1.6 or 5.2.0
-- You are using MySQL later than 4.1.20, but not any iteration of MySQL 5.0.51 (including 5.0.51a).
-- Clear the `core/cache/` directory entirely before starting setup; sometimes improper file permissions can cause issues.
-- Clear your browser cache and cookies
+- You are using PHP 7.4+.
+- You are using MySQL 5.6+.
+- You have cleared the `core/cache/` directory entirely before starting setup; sometimes improper file permissions can cause issues.
+- You have cleared your browser cache and cookies.
 
 ## PDO Error Messages
 

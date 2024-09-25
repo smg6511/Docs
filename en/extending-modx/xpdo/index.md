@@ -11,7 +11,7 @@ In MODX 2.x, the `modX` class directly extends `xPDO`. While in hindsight that's
 
 ## What is xPDO?
 
-xPDO is our name for open eXtensions to PDO. It's a light-weight ORB (object-relational bridge) library that works on PHP 5 and 7, and takes advantage of the standard for database persistence in PHP, PDO. It implements the very simple, but effective Active Record pattern for data access, as well as a flexible domain model that allows you to isolate domain logic from database-specific logic, or not, depending on your needs.
+xPDO (open eXtensions to PDO) is a light-weight ORB (object-relational bridge) library that takes advantage of PDO (PHP Data Objects), a popular standard for database persistence, and is currently compatible with PHP 7.2.5+. It implements the very simple, but effective Active Record pattern for data access, as well as a flexible domain model that allows you to isolate domain logic from database-specific logic, or not, depending on your needs.
 
 ## Glossary
 
